@@ -1,0 +1,36 @@
+Virtual User Script started at : 2024-04-01 23:00:17
+TruClient Replay (build 0157) for LoadRunner Professional 2024.1.0, build 0264. OS: Windows 11, Browser: Chromium 120.0.6099.63, initialized on 2024/04/01 at 23:00:16 (1712030416,989s)
+
+Running Vuser...
+Starting iteration 1.
+t=00001365ms: Step 1: Navigate to "http://localhost:4000/" started    [MsgId: MMSG-205180]
+t=00002256ms: Step 1: Navigate to http://localhost:4000/ successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+t=00002259ms: Step 2: Call Function LibTest.Register started    [MsgId: MMSG-205180]
+t=00002320ms: Step 2: Function Register started    [MsgId: MMSG-205180]
+t=00002836ms: Step 2.1: Click on Register link started    [MsgId: MMSG-205180]
+t=00003061ms: Step 2.1: Click on Register link successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+t=00003071ms: Step 2.2: Signup started    [MsgId: MMSG-205180]
+t=00003587ms: Step 2.2.1: Click on Name textbox started    [MsgId: MMSG-205180]
+t=00005710ms: Step 2.2.1: Click on Name textbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00006221ms: Step 2.2.2: Type FuncArgs.Name; in Name textbox started    [MsgId: MMSG-205180]
+t=00007753ms: Step 2.2.2: Type David in Name textbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00008264ms: Step 2.2.3: Click on Email emailbox started    [MsgId: MMSG-205180]
+t=00010404ms: Step 2.2.3: Click on Email emailbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00010917ms: Step 2.2.4: Type FuncArgs.Email;  in Email emailbox started    [MsgId: MMSG-205180]
+t=00015780ms: Step 2.2.4: Type david@gmail.com in Email emailbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00016291ms: Step 2.2.5: Click on Password passwordbox started    [MsgId: MMSG-205180]
+t=00018418ms: Step 2.2.5: Click on Password passwordbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00018928ms: Step 2.2.6: Type ******************* in Password passwordbox started    [MsgId: MMSG-205180]
+t=00021062ms: Step 2.2.6: Type ******** in Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00021574ms: Step 2.2.7: Click on Confirm Password passwordbox started    [MsgId: MMSG-205180]
+t=00023701ms: Step 2.2.7: Click on Confirm Password passwordbox successfully completed with End Event "Step network completed"    [MsgId: MMSG-205180]
+t=00024212ms: Step 2.2.8: Type ****************... in Confirm Password passwordbox started    [MsgId: MMSG-205180]
+t=00027816ms: Step 2.2.8: Type ******** in Confirm Password passwordbox successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00028329ms: Step 2.2.9: Click on Signup button started    [MsgId: MMSG-205180]
+t=00028622ms: Step 2.2.9: Click on Signup button successfully completed with End Event "Document Loaded"    [MsgId: MMSG-205180]
+t=00028625ms: Step 2.2: Signup successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00028632ms: Step 2: Function Register successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00028672ms: Step 2: Call Function LibTest.Register successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

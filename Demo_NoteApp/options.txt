@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\david\Documents\VuGen\Scripts\Demo_NoteApp
+-IC:\Program Files (x86)\OpenText\LoadRunner\include
+-ec:\users\david\documents\vugen\scripts\demo_noteapp\\logfile.log
+c:\users\david\documents\vugen\scripts\demo_noteapp\\combined_Demo_NoteApp.c
+c:\users\david\documents\vugen\scripts\demo_noteapp\\pre_cci.c
